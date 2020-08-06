@@ -1,0 +1,116 @@
+body {
+    font-family: 'Bahiana';
+    font-size: 60px;
+}
+
+.Container {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    /* color: blue;
+    background-color: rgb(0, 0, 0); */
+}
+
+
+/* .Bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    top: 900px;
+    color: rgb(255, 255, 255);
+} */
+
+
+/* .Top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    color: rgb(255, 0, 0);
+} */
+
+
+/* .Top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    color: rgb(255, 0, 0);
+} */
+
+.Bottom-right {
+    position: absolute;
+    bottom: 1px;
+    right: 16px;
+    top: 900px;
+    color: rgb(253, 249, 249);
+    text-shadow: 2px 2px 8px #eecaca;
+}
+
+
+/* .Bottom-right-logo {
+    position: absolute;
+    bottom: 1px;
+    right: 16px;
+    top: 1000px;
+    color: rgb(255, 255, 255);
+} */
+
+
+/* .Centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 0, 0);
+} */
+
+.MainPic {
+    background: url("images/logo.jpg");
+    min-height: 1200px;
+    background-position: center;
+    background-repeat: repeat;
+    position: relative;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat-y;
+    /* animation: logo_anim 50s linear infinite; */
+}
+
+
+/* @keyframes logo_anim {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -2122px 0;
+    }
+
+
+} */
+
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 90%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #353535;
+    color: rgb(255, 255, 255);
+}
+
+.fa-google {
+    background: #353535;
+    color: rgb(255, 255, 255);
+}
+
+.fa-instagram {
+    background: #353535;
+    color: rgb(255, 255, 255);
+}
